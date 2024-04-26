@@ -1,0 +1,15 @@
+.link-el {
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .link-el {
+    display: flex;
+    flex-direction: column;
+  }
+}
